@@ -189,12 +189,12 @@ var World = {
 		}
 		
 		// Add water
-		var water = $('div#supply_water');
+		var water = $('div#supply_вода');
 		if(World.water > 0 && water.length == 0) {
 			water = World.createItemDiv('вода', World.water);
 			water.prependTo(supplies);
 		} else if(World.water > 0) {
-			$('div#supply_water', supplies).text('вода:' + World.water);
+			$('div#supply_вода', supplies).text('вода:' + World.water);
 		} else {
 			water.remove();
 		}
