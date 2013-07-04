@@ -191,7 +191,7 @@ var World = {
 		// Add water
 		var water = $('div#supply_water');
 		if(World.water > 0 && water.length == 0) {
-			water = World.createItemDiv('water', World.water);
+			water = World.createItemDiv('вода', World.water);
 			water.prependTo(supplies);
 		} else if(World.water > 0) {
 			$('div#supply_water', supplies).text('вода:' + World.water);

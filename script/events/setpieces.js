@@ -110,13 +110,13 @@ Events.Setpieces = {
 			
 			'a1': {
 				combat: true,
-				enemy: 'beast',
+				enemy: 'тварюка',
 				char: 'B',
 				damage: 1,
 				hit: 0.8,
 				attackDelay: 1,
 				health: 5,
-				notification: 'a startled beast defends its home',
+				notification: 'a startled тварюка defends its home',
 				loot: {
 					'шкури': {
 						min: 1,
@@ -225,10 +225,10 @@ Events.Setpieces = {
 			},
 			'b2': {
 				text: [
-				   'the смолоскип sputters and dies in the damp air',
-				   'the darkness is absolute'
+				   'Смолоскип зашипів і потух у вологому повітрі.',
+				   'Темнота непроглядна.'
 				],
-				notification: 'the смолоскип goes out',
+				notification: 'Смолоскип потух.',
 				buttons: {
 					'continue': {	
 						text: 'продовжити',
@@ -243,13 +243,13 @@ Events.Setpieces = {
 			},
 			'b3': {
 				combat: true,
-				enemy: 'beast',
+				enemy: 'тварюка',
 				char: 'B',
 				damage: 1,
 				hit: 0.8,
 				attackDelay: 1,
 				health: 5,
-				notification: 'a startled beast defends its home',
+				notification: 'a startled тварюка defends its home',
 				loot: {
 					'шкури': {
 						min: 1,
@@ -275,13 +275,13 @@ Events.Setpieces = {
 			},
 			'b4': {
 				combat: true,
-				enemy: 'cave lizard',
+				enemy: 'ящірка',
 				char: 'L',
 				damage: 3,
 				hit: 0.8,
 				attackDelay: 2,
 				health: 6,
-				notification: 'a cave lizard attacks',
+				notification: 'Печерна ящірка атакує.',
 				loot: {
 					'луска': {
 						min: 1,
@@ -307,13 +307,13 @@ Events.Setpieces = {
 			},
 			'c1': {
 				combat: true,
-				enemy: 'beast',
+				enemy: 'тварюка',
 				char: 'B',
 				damage: 3,
 				hit: 0.8,
 				attackDelay: 2,
 				health: 10,
-				notification: 'a large beast charges out of the dark',
+				notification: 'a large тварюка charges out of the dark',
 				loot: {
 					'шкури': {
 						min: 1,
@@ -339,7 +339,7 @@ Events.Setpieces = {
 			},
 			'c2': {
 				combat: true,
-				enemy: 'lizard',
+				enemy: 'варан',
 				char: 'L',
 				damage: 4,
 				hit: 0.8,
@@ -524,7 +524,7 @@ Events.Setpieces = {
 			},
 			'a2': {
 				combat: true,
-				enemy: 'thug',
+				enemy: 'головоріз',
 				char: 'T',
 				damage: 4,
 				hit: 0.8,
@@ -593,7 +593,7 @@ Events.Setpieces = {
 			},
 			'b2': {
 				combat: true,
-				enemy: 'scavenger',
+				enemy: 'сміттяр',
 				char: 'S',
 				damage: 4,
 				hit: 0.8,
@@ -630,7 +630,7 @@ Events.Setpieces = {
 			},
 			'b3': {
 				combat: true,
-				enemy: 'beast',
+				enemy: 'тварюка',
 				char: 'B',
 				damage: 3,
 				hit: 0.8,
@@ -648,7 +648,7 @@ Events.Setpieces = {
 						chance: 1
 					}
 				},
-				notification: 'a beast stands alone in an overgrown park.',
+				notification: 'a тварюка stands alone in an overgrown park.',
 				buttons: {
 					'continue': {
 						text: 'продовжити',
@@ -695,7 +695,7 @@ Events.Setpieces = {
 			},
 			'c1': {
 				combat: true,
-				enemy: 'thug',
+				enemy: 'головоріз',
 				char: 'T',
 				damage: 4,
 				hit: 0.8,
@@ -718,7 +718,7 @@ Events.Setpieces = {
 						chance: 0.5
 					}
 				},
-				notification: 'a thug moves out of the shadows.',
+				notification: 'a головоріз moves out of the shadows.',
 				buttons: {
 					'continue': {
 						text: 'продовжити',
@@ -732,7 +732,7 @@ Events.Setpieces = {
 			},
 			'c2': {
 				combat: true,
-				enemy: 'beast',
+				enemy: 'тварюка',
 				char: 'B',
 				damage: 3,
 				hit: 0.8,
@@ -750,7 +750,7 @@ Events.Setpieces = {
 						chance: 1
 					}
 				},
-				notification: 'a beast charges out of a ransacked classroom.',
+				notification: 'a тварюка charges out of a ransacked classroom.',
 				buttons: {
 					'continue': {
 						text: 'продовжити',
@@ -781,7 +781,7 @@ Events.Setpieces = {
 			},
 			'c4': {
 				combat: true,
-				enemy: 'beast',
+				enemy: 'тварюка',
 				char: 'B',
 				damage: 4,
 				hit: 0.8,
@@ -799,7 +799,7 @@ Events.Setpieces = {
 						chance: 1
 					}
 				},
-				notification: 'another beast, draw by the noise, leaps out of a copse of trees.',
+				notification: 'another тварюка, draw by the noise, leaps out of a copse of trees.',
 				buttons: {
 					'continue': {
 						text: 'продовжити',
@@ -852,7 +852,7 @@ Events.Setpieces = {
 			},
 			'd1': {
 				combat: true,
-				enemy: 'scavenger',
+				enemy: 'сміттяр',
 				char: 'S',
 				damage: 5,
 				hit: 0.8,
@@ -875,7 +875,7 @@ Events.Setpieces = {
 						chance: 0.5
 					}
 				},
-				notification: 'a panicked scavenger bursts through the door, screaming.',
+				notification: 'a panicked сміттяр bursts through the door, screaming.',
 				buttons: {
 					'continue': {
 						text: 'продовжити',
@@ -889,7 +889,7 @@ Events.Setpieces = {
 			},
 			'd2': {
 				combat: true,
-				enemy: 'vigilante',
+				enemy: 'часовий',
 				char: 'V',
 				damage: 6,
 				hit: 0.8,
@@ -926,7 +926,7 @@ Events.Setpieces = {
 			},
 			'end1': {
 				text: [
-				   'scavenger had a small camp in the school.',
+				   'сміттяр had a small camp in the school.',
 				   'collected scraps spread across the floor like they fell from heaven.'
 				],
 				onLoad: function() {
@@ -963,7 +963,7 @@ Events.Setpieces = {
 			},
 			'end2': {
 				text: [
-				   "scavenger'd been looking for supplies in here, it seems.",
+				   "сміттяр'd been looking for supplies in here, it seems.",
 				   "a shame to let what he'd found go to waste."
 				],
 				onLoad: function() {
@@ -1066,7 +1066,7 @@ Events.Setpieces = {
 			'start': {
 				text: [
 					'a battered highway sign stands guard at the entrance to this once-great city.',
-					"the towers that haven't crumbled jut from the landscape like the ribcage of some ancient beast.",
+					"the towers that haven't crumbled jut from the landscape like the ribcage of some ancient тварюка.",
 					'might be things worth having still inside.'
 				],
 				notification: "the towers of a decaying city dominate the skyline",
@@ -1149,7 +1149,7 @@ Events.Setpieces = {
 			'b2': {
 				combat: true,
 				notification: 'a huge lizard scrambles up out of the darkness of an old metro station.',
-				enemy: 'lizard',
+				enemy: 'варан',
 				char: 'L',
 				damage: 5,
 				hit: 0.8,
@@ -1186,7 +1186,7 @@ Events.Setpieces = {
 			'b3': {
 				notification: 'the shot echoes in the empty street.',
 				combat: true,
-				enemy: 'sniper',
+				enemy: 'снайпер',
 				char: 'S',
 				damage: 15,
 				hit: 0.8,
@@ -1222,9 +1222,9 @@ Events.Setpieces = {
 				}
 			},
 			'b4': {
-				notification: 'the soldier steps out from between the buildings, rifle raised.',
+				notification: 'the солдат steps out from between the buildings, rifle raised.',
 				combat: true,
-				enemy: 'soldier',
+				enemy: 'солдат',
 				ranged: true,
 				char: 'D',
 				damage: 8,
@@ -1262,7 +1262,7 @@ Events.Setpieces = {
 			'b5': {
 				notification: 'a frail man stands defiantly, blocking the path.',
 				combat: true,
-				enemy: 'frail man',
+				enemy: 'хворий',
 				char: 'M',
 				damage: 1,
 				hit: 0.8,
@@ -1313,9 +1313,9 @@ Events.Setpieces = {
 				}
 			},
 			'c1': {
-				notification: 'a thug is waiting on the other side of the wall.',
+				notification: 'a головоріз is waiting on the other side of the wall.',
 				combat: true,
-				enemy: 'thug',
+				enemy: 'головоріз',
 				char: 'T',
 				damage: 3,
 				hit: 0.8,
@@ -1351,9 +1351,9 @@ Events.Setpieces = {
 			},
 			
 			'c2': {
-				notification: 'a snarling beast jumps out from behind a car.',
+				notification: 'a snarling тварюка jumps out from behind a car.',
 				combat: true,
-				enemy: 'beast',
+				enemy: 'тварюка',
 				char: 'B',
 				damage: 2,
 				hit: 0.8,
@@ -1542,7 +1542,7 @@ Events.Setpieces = {
 			'd1': {
 				notification: 'a large bird nests at the top of the stairs.',
 				combat: true,
-				enemy: 'bird',
+				enemy: 'птах',
 				char: 'B',
 				damage: 5,
 				hit: 0.7,
@@ -1609,7 +1609,7 @@ Events.Setpieces = {
 			'd3': {
 				notification: 'a swarm of rats rushes up the tunnel.',
 				combat: true,
-				enemy: 'rats',
+				enemy: 'щурі',
 				plural: true,
 				char: 'RRR',
 				damage: 1,
@@ -1643,7 +1643,7 @@ Events.Setpieces = {
 			'd4': {
 				notification: 'a large man attacks, waving a bayonet.',
 				combat: true,
-				enemy: 'veteran',
+				enemy: 'ветеран',
 				char: 'V',
 				damage: 3,
 				hit: 0.8,
@@ -1674,9 +1674,9 @@ Events.Setpieces = {
 			},
 			
 			'd5': {
-				notification: 'a second soldier opens fire.',
+				notification: 'a second солдат opens fire.',
 				combat: true,
-				enemy: 'soldier',
+				enemy: 'солдат',
 				ranged: true,
 				char: 'D',
 				damage: 8,
@@ -1713,9 +1713,9 @@ Events.Setpieces = {
 			},
 			
 			'd6': {
-				notification: 'a masked soldier rounds the corner, gun drawn',
+				notification: 'a masked солдат rounds the corner, gun drawn',
 				combat: true,
-				enemy: 'commando',
+				enemy: 'спецназ',
 				char: 'C',
 				ranged: true,
 				damage: 3,
@@ -1754,7 +1754,7 @@ Events.Setpieces = {
 			'd7': {
 				notification: 'the crowd surges forward.',
 				combat: true,
-				enemy: 'squatters',
+				enemy: 'бомжі',
 				plural: true,
 				char: 'SSS',
 				damage: 2,
@@ -1786,9 +1786,9 @@ Events.Setpieces = {
 			},
 			
 			'd8': {
-				notification: 'a youth lashes out with a tree branch.',
+				notification: 'a підліток lashes out with a tree branch.',
 				combat: true,
-				enemy: 'youth',
+				enemy: 'підліток',
 				char: 'Y',
 				damage: 2,
 				hit: 0.7,
@@ -1819,9 +1819,9 @@ Events.Setpieces = {
 			},
 			
 			'd9': {
-				notification: 'a squatter stands firmly in the doorway of a small hut.',
+				notification: 'a бомж stands firmly in the doorway of a small hut.',
 				combat: true,
-				enemy: 'squatter',
+				enemy: 'бомж',
 				char: 'S',
 				damage: 3,
 				hit: 0.8,
@@ -1888,7 +1888,7 @@ Events.Setpieces = {
 			'end2': {
 				text: [
 				   'not much here.',
-				   'scavengers much have gotten to this place already.'
+				   'сміттярі much have gotten to this place already.'
 				],
 				onLoad: function() {
 					World.clearDungeon();
@@ -1998,7 +1998,7 @@ Events.Setpieces = {
 			'end5': {
 				text: [
 				   'searching the bodies yields a few supplies.',
-				   'more soldiers will be on their way.',
+				   'more солдатs will be on their way.',
 				   'time to move on.'
 				],
 				onLoad: function() {
@@ -2198,8 +2198,8 @@ Events.Setpieces = {
 			},
 			'supplies': {
 				text: [
-					'the house is abandoned, but not yet picked over.',
-					'still a few drops of water in the old well.'
+					'Будинок покинутий але не знищений повністю.',
+					'Ще є трошки води у старому колодязі.'
 				],
 				onLoad: function() {
 					World.markVisited(World.curPos[0], World.curPos[1]);
@@ -2232,7 +2232,7 @@ Events.Setpieces = {
 			},
 			'occupied': {
 				combat: true,
-				enemy: 'squatter',
+				enemy: 'бомж',
 				char: 'S',
 				damage: 3,
 				hit: 0.8,
@@ -2377,7 +2377,7 @@ Events.Setpieces = {
 			'start': {
 				text: [
 					"the military is already set up at the mine's entrance.",
-					'soldiers patrol the permitter, rifles slung over their shoulders.'
+					'солдатs patrol the permitter, rifles slung over their shoulders.'
 				],
 				notification: 'a military perimeter is set up around the mine.',
 				buttons: {
@@ -2393,7 +2393,7 @@ Events.Setpieces = {
 			},
 			'a1': {
 				combat: true,
-				enemy: 'soldier',
+				enemy: 'солдат',
 				ranged: true,
 				char: 'D',
 				damage: 8,
@@ -2417,7 +2417,7 @@ Events.Setpieces = {
 						chance: 0.2
 					}
 				},
-				notification: 'a soldier, alerted, opens fire.',
+				notification: 'a солдат, alerted, opens fire.',
 				buttons: {
 					'continue': {
 						text: 'продовжити',
@@ -2431,7 +2431,7 @@ Events.Setpieces = {
 			},
 			'a2': {
 				combat: true,
-				enemy: 'soldier',
+				enemy: 'солдат',
 				ranged: true,
 				char: 'D',
 				damage: 8,
@@ -2455,7 +2455,7 @@ Events.Setpieces = {
 						chance: 0.2
 					}
 				},
-				notification: 'a second soldier joins the fight.',
+				notification: 'a second солдат joins the fight.',
 				buttons: {
 					'continue': {
 						text: 'продовжити',
@@ -2469,7 +2469,7 @@ Events.Setpieces = {
 			},
 			'a3': {
 				combat: true,
-				enemy: 'veteran',
+				enemy: 'ветеран',
 				char: 'V',
 				damage: 10,
 				hit: 0.8,
@@ -2487,7 +2487,7 @@ Events.Setpieces = {
 						chance: 0.8
 					}
 				},
-				notification: 'a grizzled soldier attacks, waving a bayonet.',
+				notification: 'a grizzled солдат attacks, waving a bayonet.',
 				buttons: {
 					'continue': {
 						text: 'продовжити',
@@ -2498,7 +2498,7 @@ Events.Setpieces = {
 			'cleared': {
 				text: [
 					'the military presence has been cleared.',
-					'the mine is now safe for workers.'
+					'Шахта тепер безпечна для робітників.'
 				],
 				notification: 'the sulphur mine is clear of dangers',
 				onLoad: function() {
@@ -2601,7 +2601,7 @@ Events.Setpieces = {
 			},
 			'a3': {
 				combat: true,
-				enemy: 'chief',
+				enemy: 'вождь',
 				char: 'C',
 				damage: 5,
 				hit: 0.8,
@@ -2624,7 +2624,7 @@ Events.Setpieces = {
 						chance: 0.8
 					}
 				},
-				notification: 'only the chief remains.',
+				notification: 'only the вождь remains.',
 				buttons: {
 					'continue': {
 						text: 'продовжити',
@@ -2635,7 +2635,7 @@ Events.Setpieces = {
 			'cleared': {
 				text: [
 					'the camp is still, save for the crackling of the fires.',
-					'the mine is now safe for workers.'
+					'Шахта тепер безпечна для робітників.'
 				],
 				notification: 'the coal mine is clear of dangers',
 				onLoad: function() {
@@ -2676,7 +2676,7 @@ Events.Setpieces = {
 			},
 			'enter': {
 				combat: true,
-				enemy: 'beastly matriarch',
+				enemy: 'горила',
 				char: 'M',
 				damage: 4,
 				hit: 0.8,
@@ -2699,7 +2699,7 @@ Events.Setpieces = {
 						chance: 0.5
 					}
 				},
-				notification: 'a large creature lunges, muscles rippling in the смолоскип light',
+				notification: 'Велика горила крутиться на місці, її мускули виграють під шкірою у світлі ліхтаря.',
 				buttons: {
 					'leave': {
 						text: 'полишити',
@@ -2709,10 +2709,10 @@ Events.Setpieces = {
 			},
 			'cleared': {
 				text: [
-					'the beast is dead.',
-					'the mine is now safe for workers.'
+					'Тварюка здохла.',
+					'Шахта тепер безпечна для робітників.'
 				],
-				notification: 'the iron mine is clear of dangers',
+				notification: 'Залізнорудна шахта очищена від небезпек.',
 				onLoad: function() {
 					World.drawRoad();
 					World.state.ironmine = true;
