@@ -116,7 +116,7 @@ var Events = {
     
     var btn = new Button.Button({
 			id: 'eat',
-			text: 'з’їсти м’ясо',
+			text: 'зʼїсти мʼясо',
       cooldown: cooldown,
 			click: Events.eatMeat,
 			cost: { 'копченина': 1 }

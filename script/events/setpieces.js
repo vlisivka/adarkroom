@@ -377,7 +377,7 @@ Events.Setpieces = {
 					World.clearDungeon();
 				},
 				loot: {
-					'м’ясо': {
+					'мʼясо': {
 						min: 5,
 						max: 10,
 						chance: 1
@@ -1166,7 +1166,7 @@ Events.Setpieces = {
 						max: 10,
 						chance: 0.5
 					},
-					'м’ясо': {
+					'мʼясо': {
 						min: 5,
 						max: 10,
 						chance: 0.8
@@ -1360,7 +1360,7 @@ Events.Setpieces = {
 				attackDelay: 1,
 				health: 30,
 				loot: {
-					'м’ясо': {
+					'мʼясо': {
 						min: 1,
 						max: 5,
 						chance: 0.8
@@ -1549,7 +1549,7 @@ Events.Setpieces = {
 				attackDelay: 1,
 				health: 45,
 				loot: {
-					'м’ясо': {
+					'мʼясо': {
 						min: 5,
 						max: 10,
 						chance: 0.8
@@ -2238,7 +2238,7 @@ Events.Setpieces = {
 				hit: 0.8,
 				attackDelay: 2,
 				health: 10,
-				notification: 'Чолов’яга спускається по сходах з поржавілим мечем у руках.',
+				notification: 'Чоловʼяга спускається по сходах з поржавілим мечем у руках.',
 				onLoad: function() {
 					World.markVisited(World.curPos[0], World.curPos[1]);
 				},
@@ -2521,7 +2521,7 @@ Events.Setpieces = {
 			'start': {
 				text: [
 					'Вогонь палає на стоянці біля копальні.',
-					'Чолов’яга чатує на вході, зброя напоготові.'
+					'Чоловʼяга чатує на вході, зброя напоготові.'
 				],
 				notification: 'Ця копальня не покинута.',
 				buttons: {
@@ -2537,7 +2537,7 @@ Events.Setpieces = {
 			},
 			'a1': {
 				combat: true,
-				enemy: 'чолов’яга',
+				enemy: 'чоловʼяга',
 				char: 'M',
 				damage: 3,
 				hit: 0.8,
@@ -2555,7 +2555,7 @@ Events.Setpieces = {
 						chance: 0.8
 					}
 				},
-				notification: 'Якийсь чолов’яга приєднався до бійки',
+				notification: 'Якийсь чоловʼяга приєднався до бійки',
 				buttons: {
 					'continue': {
 						text: 'продовжити',
@@ -2569,7 +2569,7 @@ Events.Setpieces = {
 			},
 			'a2': {
 				combat: true,
-				enemy: 'чолов’яга',
+				enemy: 'чоловʼяга',
 				char: 'M',
 				damage: 3,
 				hit: 0.8,
@@ -2587,7 +2587,7 @@ Events.Setpieces = {
 						chance: 0.8
 					}
 				},
-				notification: 'Якийсь чолов’яга приєднався до бійки.',
+				notification: 'Якийсь чоловʼяга приєднався до бійки.',
 				buttons: {
 					'continue': {
 						text: 'продовжити',
