@@ -303,7 +303,7 @@ var Events = {
 				}
 			} else {
 				if(dmg == 'stun') {
-					msg = 'stunned';
+					msg = 'заплутався';
 					enemy.data('stunned', true);
 					setTimeout(function() {
 						enemy.data('stunned', false);
@@ -348,7 +348,7 @@ var Events = {
 				}
 			} else {
 				if(dmg == 'stun') {
-					msg = 'stunned';
+					msg = 'заплутався';
 					enemy.data('stunned', true);
 					setTimeout(function() {
 						enemy.data('stunned', false);

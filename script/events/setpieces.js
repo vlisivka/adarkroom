@@ -34,10 +34,10 @@ Events.Setpieces = {
 		scenes: {
 			'start': {
 				text: [
-					'rotting reeds rise out of the swampy earth.',
-					'a lone frog sits in the muck, silently.'
+					'Почорнілі комиші пробиваються з потемнілої води.',
+					'Самотня жаба сидить на купі грязюки.'
 				],
-				notification: 'a swamp festers in the stagnant air.',
+				notification: 'Від болота смердить гниллю, вітру немає.',
 				buttons: {
 					'enter': {
 						text: 'увійти',
@@ -68,10 +68,10 @@ Events.Setpieces = {
 			},
 			'talk': {
 				text: [
-					'the wanderer takes the charm and nods slowly.',
-					'he speaks of once leading the great fleets to fresh worlds.',
-					'unfathomable destruction to fuel wanderer hungers.',
-					'his time here, now, is his penance.'
+					'Космонавт взяв буси і почав нудно і повільно розповідати.',
+					'Він розказує як колись водив великі флотилії до нових світів.',
+					'Безмежні руйнування щоб вдовольнити жагу до палива.',
+					'Його місце тут, тепер це його кара.'
 				],
 				onLoad: function() {
 					Engine.addPerk('кухар');
@@ -91,10 +91,10 @@ Events.Setpieces = {
 		scenes: {
 			'start': {
 				text: [
-					'the mouth of the cave is wide and dark.',
-					"can't see what's inside."
+					'Вхід у печеру широкий і темний.',
+					"Не можу побачити що у середині."
 				],
-				notification: 'the earth here is split, as if bearing an ancient wound',
+				notification: 'Земля тут розколота, ніби від давньої рани.',
 				buttons: {
 					'enter': {
 						text: 'зайти',
@@ -116,7 +116,7 @@ Events.Setpieces = {
 				hit: 0.8,
 				attackDelay: 1,
 				health: 5,
-				notification: 'a startled тварюка defends its home',
+				notification: 'Злякана тварюка захищає свій дім.',
 				loot: {
 					'шкури': {
 						min: 1,
@@ -146,7 +146,7 @@ Events.Setpieces = {
 					"the walls are moist and moss-covered"
 				],
 				buttons: {
-					'continue': {	
+					'continue': {
 						text: 'протиснутися',
 						nextScene: {0.5: 'b2', 1: 'b3'}
 					},
@@ -2238,7 +2238,7 @@ Events.Setpieces = {
 				hit: 0.8,
 				attackDelay: 2,
 				health: 10,
-				notification: 'a man charges down the hall, a rusty blade in his hand',
+				notification: 'Чолов’яга спускається по сходах з поржавілим мечем у руках.',
 				onLoad: function() {
 					World.markVisited(World.curPos[0], World.curPos[1]);
 				},
@@ -2273,8 +2273,8 @@ Events.Setpieces = {
 		scenes: {
 			'start': {
 				text: [
-				   'a battle was fought here, long ago.',
-				   'battered technology from both sides lays dormant on the blasted landscape.'
+				   'Битва кипіла в цьому місці колись давно.',
+				   'Залишки військового обладнання з обох боків валяються навколо.'
 				],
 				onLoad: function() {
 					World.markVisited(World.curPos[0], World.curPos[1]);
@@ -2325,9 +2325,9 @@ Events.Setpieces = {
 		scenes: {
 			'start': {
 				text: [
-				   'a huge hole is cut deep into the earth, evidence of the past harvest.',
-				   'they took what they came for, and left.',
-				   'castoff from the mammoth drills can still be found by the edges of the precipice.'
+				   'Велика воронка залишилася після падіння чогось важкого.',
+				   'Майже все зруйнувалося або сплавилося у грудки.',
+				   'Шматки якогось тугоплавкого сплаву валяються в кількох місцях.'
 				],
 				onLoad: function() {
 					World.markVisited(World.curPos[0], World.curPos[1]);
@@ -2376,10 +2376,10 @@ Events.Setpieces = {
 		scenes: {
 			'start': {
 				text: [
-					"the military is already set up at the mine's entrance.",
-					'солдатs patrol the permitter, rifles slung over their shoulders.'
+					"Армія поставила огородження навколо родовища.",
+					'Солдати патрулюють периметр, рушниці висять за плечима.'
 				],
-				notification: 'a military perimeter is set up around the mine.',
+				notification: 'Армія огородила родовище.',
 				buttons: {
 					'attack': {
 						text: 'атакувати',
@@ -2417,7 +2417,7 @@ Events.Setpieces = {
 						chance: 0.2
 					}
 				},
-				notification: 'a солдат, alerted, opens fire.',
+				notification: 'Солдат, помітивши, відкрив стрільбу.',
 				buttons: {
 					'continue': {
 						text: 'продовжити',
@@ -2455,7 +2455,7 @@ Events.Setpieces = {
 						chance: 0.2
 					}
 				},
-				notification: 'a second солдат joins the fight.',
+				notification: 'Другий солдад приєднався до бою.',
 				buttons: {
 					'continue': {
 						text: 'продовжити',
@@ -2487,7 +2487,7 @@ Events.Setpieces = {
 						chance: 0.8
 					}
 				},
-				notification: 'a grizzled солдат attacks, waving a bayonet.',
+				notification: 'Сивий солдат атакує, розмахуючи штиком.',
 				buttons: {
 					'continue': {
 						text: 'продовжити',
@@ -2497,10 +2497,10 @@ Events.Setpieces = {
 			},
 			'cleared': {
 				text: [
-					'the military presence has been cleared.',
-					'Шахта тепер безпечна для робітників.'
+					'Це місце було очищене від солдат.',
+					'Родовище тепер безпечна для робітників.'
 				],
-				notification: 'the sulphur mine is clear of dangers',
+				notification: 'Родовище сірки тепер безпечне.',
 				onLoad: function() {
 					World.drawRoad();
 					World.state.sulphurmine = true;
@@ -2520,10 +2520,10 @@ Events.Setpieces = {
 		scenes: {
 			'start': {
 				text: [
-					'camp fires burn by the entrance to the mine.',
-					'men mill about, weapons at the ready.'
+					'Вогонь палає на стоянці біля копальні.',
+					'Чолов’яга чатує на вході, зброя напоготові.'
 				],
-				notification: 'this old mine is not abandoned',
+				notification: 'Ця копальня не покинута.',
 				buttons: {
 					'attack': {
 						text: 'атакувати',
@@ -2537,7 +2537,7 @@ Events.Setpieces = {
 			},
 			'a1': {
 				combat: true,
-				enemy: 'man',
+				enemy: 'чолов’яга',
 				char: 'M',
 				damage: 3,
 				hit: 0.8,
@@ -2555,7 +2555,7 @@ Events.Setpieces = {
 						chance: 0.8
 					}
 				},
-				notification: 'a man joins the fight',
+				notification: 'Якийсь чолов’яга приєднався до бійки',
 				buttons: {
 					'continue': {
 						text: 'продовжити',
@@ -2569,7 +2569,7 @@ Events.Setpieces = {
 			},
 			'a2': {
 				combat: true,
-				enemy: 'man',
+				enemy: 'чолов’яга',
 				char: 'M',
 				damage: 3,
 				hit: 0.8,
@@ -2587,7 +2587,7 @@ Events.Setpieces = {
 						chance: 0.8
 					}
 				},
-				notification: 'a man joins the fight',
+				notification: 'Якийсь чолов’яга приєднався до бійки.',
 				buttons: {
 					'continue': {
 						text: 'продовжити',
@@ -2624,7 +2624,7 @@ Events.Setpieces = {
 						chance: 0.8
 					}
 				},
-				notification: 'only the вождь remains.',
+				notification: 'Лише вождь залишився.',
 				buttons: {
 					'continue': {
 						text: 'продовжити',
@@ -2634,10 +2634,10 @@ Events.Setpieces = {
 			},
 			'cleared': {
 				text: [
-					'the camp is still, save for the crackling of the fires.',
-					'Шахта тепер безпечна для робітників.'
+					'Стоянка стала тихим місцем, де можна спокійно розвести багаття.',
+					'Копальня тепер безпечна для робітників.'
 				],
-				notification: 'the coal mine is clear of dangers',
+				notification: 'Копальня очищена від небезпек.',
 				onLoad: function() {
 					World.drawRoad();
 					World.state.coalmine = true;
@@ -2657,11 +2657,11 @@ Events.Setpieces = {
 		scenes: {
 			'start': {
 				text: [
-					'an old iron mine sits here, tools abandoned and left to rust.',
-					'bleached bones are strewn about the entrance. many, deeply scored with jagged grooves.',
-					'feral howls echo out of the darkness.'
+					'Шахта покинута, інструменти іржавіють по кутках.',
+					'Чиїсь кістки біліють біля входу. Багато з них кимось погризені.',
+					'Дике виття почулося із темряви.'
 				],
-				notification: 'the path leads to an abandoned mine',
+				notification: 'Шлях веде у покинуту шахту.',
 				buttons: {
 					'enter': {
 						text: 'зайти',
