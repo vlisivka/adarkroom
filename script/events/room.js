@@ -21,9 +21,9 @@ Events.Room = [
 						reward: { 'луска': 1 }
 					},
 					'buyTeeth': {
-						text: 'купити клики',
+						text: 'купити ікла',
 						cost: { 'шкури': 200 },
-						reward: { 'клики': 1 }
+						reward: { 'ікла': 1 }
 					},
 					'buyBait': {
 						text: 'купити приманку',
@@ -36,7 +36,7 @@ Events.Room = [
 							return Engine.getStore('компас') < 1;
 						},
 						text: 'купити компас',
-						cost: { 'шкури': 300, 'луска': 15, 'клики': 5 },
+						cost: { 'шкури': 300, 'луска': 15, 'ікла': 5 },
 						reward: { 'компас': 1 },
 						notification: 'Старий компас помʼятий і запорошений, але все ще працює.',
 						onChoose: Engine.openPath
@@ -144,7 +144,7 @@ Events.Room = [
 			teeth: {
 				text: [
 				   'Частина деревини зникла.',
-				   'На землі валяються клики.'
+				   'На землі валяються ікла.'
 				],
 				onLoad: function() {
 					var numWood = Engine.getStore('дерево');
@@ -152,7 +152,7 @@ Events.Room = [
 					if(numWood == 0) numWood = 1;
 					var numTeeth = Math.floor(numWood / 5);
 					if(numTeeth == 0) numTeeth = 1;
-					Engine.addStores({'дерево': -numWood, 'клики': numTeeth});
+					Engine.addStores({'дерево': -numWood, 'ікла': numTeeth});
 				},
 				buttons: {
 					'leave': {
@@ -226,7 +226,7 @@ Events.Room = [
 				}
 			},
 			teeth: {
-				reward: { 'клики': 20 },
+				reward: { 'ікла': 20 },
 				text: [
 				   'Попрошайка дякує вам.',
 				   'Залишає невелику купку кликів за собою.'
@@ -415,7 +415,7 @@ Events.Room = [
 					},
 					'learn': {
 						text: 'вивчити виживання',
-						cost: { 'шкури': 1000, 'луска': 50, 'клики': 20 },
+						cost: { 'шкури': 1000, 'луска': 50, 'ікла': 20 },
 						available: function() {
 							return !Engine.hasPerk('розвідник');
 						},

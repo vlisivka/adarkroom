@@ -28,7 +28,7 @@ Events.Encounters = [
 						max: 3,
 						chance: 1
 					},
-					'клики': {
+					'ікла': {
 						min: 1,
 						max: 3,
 						chance: 0.8
@@ -58,7 +58,7 @@ Events.Encounters = [
 						max: 3,
 						chance: 0.8
 					},
-					'клики': {
+					'ікла': {
 						min: 1,
 						max: 2,
 						chance: 0.8
@@ -93,7 +93,7 @@ Events.Encounters = [
 						max: 3,
 						chance: 0.8
 					},
-					'клики': {
+					'ікла': {
 						min: 1,
 						max: 2,
 						chance: 0.5
@@ -134,7 +134,7 @@ Events.Encounters = [
 						max: 10,
 						chance: 1
 					},
-					'клики': {
+					'ікла': {
 						min: 5,
 						max: 10,
 						chance: 0.8
@@ -199,7 +199,7 @@ Events.Encounters = [
 						max: 10,
 						chance: 0.8
 					},
-					'клики': {
+					'ікла': {
 						min: 5,
 						max: 10,
 						chance: 0.5
@@ -240,7 +240,7 @@ Events.Encounters = [
 						max: 10,
 						chance: 1
 					},
-					'клики': {
+					'ікла': {
 						min: 5,
 						max: 10,
 						chance: 0.8

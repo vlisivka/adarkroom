@@ -123,7 +123,7 @@ var World = {
 		World.LANDMARKS[World.TILE.CITY] = { num: 20, minRadius: 20, maxRadius: World.RADIUS * 1.5, scene: 'city', label: 'Зруйноване&nbsp;місто' };
 		World.LANDMARKS[World.TILE.SHIP] = {num: 1, minRadius: 28, maxRadius: 28, scene: 'ship', label: 'Підбитий&nbsp;зореліт'};
 		World.LANDMARKS[World.TILE.BOREHOLE] = {num: 10, minRadius: 15, maxRadius: World.RADIUS * 1.5, scene: 'borehole', label: 'Воронка'};
-		World.LANDMARKS[World.TILE.BATTLEFIELD] = {num: 5, minRadius: 18, maxRadius: World.RADIUS * 1.5, scene: 'battlefield', label: 'Поле&nbsp;битви'};
+		World.LANDMARKS[World.TILE.BATTLEFIELD] = {num: 5, minRadius: 18, maxRadius: World.RADIUS * 1.5, scene: 'battlefield', label: 'Поле&nbsp;бою'};
 		World.LANDMARKS[World.TILE.SWAMP] = {num: 1, minRadius: 15, maxRadius: World.RADIUS * 1.5, scene: 'swamp', label: 'Темне&nbsp;болото'};
 		
 		if(typeof State.world == 'undefined') {

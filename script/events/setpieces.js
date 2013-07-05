@@ -123,7 +123,7 @@ Events.Setpieces = {
 						max: 10,
 						chance: 1
 					},
-					'клики': {
+					'ікла': {
 						min: 1,
 						max: 5,
 						chance: 0.8
@@ -256,7 +256,7 @@ Events.Setpieces = {
 						max: 3,
 						chance: 1
 					},
-					'клики': {
+					'ікла': {
 						min: 1,
 						max: 2,
 						chance: 0.8
@@ -288,7 +288,7 @@ Events.Setpieces = {
 						max: 3,
 						chance: 1
 					},
-					'клики': {
+					'ікла': {
 						min: 1,
 						max: 2,
 						chance: 0.8
@@ -320,7 +320,7 @@ Events.Setpieces = {
 						max: 3,
 						chance: 1
 					},
-					'клики': {
+					'ікла': {
 						min: 1,
 						max: 3,
 						chance: 1
@@ -352,7 +352,7 @@ Events.Setpieces = {
 						max: 3,
 						chance: 1
 					},
-					'клики': {
+					'ікла': {
 						min: 1,
 						max: 3,
 						chance: 1
@@ -392,7 +392,7 @@ Events.Setpieces = {
 						max: 10,
 						chance: 1
 					},
-					'клики': {
+					'ікла': {
 						min: 5,
 						max: 10,
 						chance: 1
@@ -637,7 +637,7 @@ Events.Setpieces = {
 				attackDelay: 1,
 				health: 25,
 				loot: {
-					'клики': {
+					'ікла': {
 						min: 1,
 						max: 5,
 						chance: 1
@@ -739,7 +739,7 @@ Events.Setpieces = {
 				attackDelay: 1,
 				health: 25,
 				loot: {
-					'клики': {
+					'ікла': {
 						min: 1,
 						max: 5,
 						chance: 1
@@ -788,7 +788,7 @@ Events.Setpieces = {
 				attackDelay: 1,
 				health: 25,
 				loot: {
-					'клики': {
+					'ікла': {
 						min: 1,
 						max: 5,
 						chance: 1
@@ -1161,7 +1161,7 @@ Events.Setpieces = {
 						max: 10,
 						chance: 0.8
 					},
-					'клики': {
+					'ікла': {
 						min: 5,
 						max: 10,
 						chance: 0.5
@@ -1370,7 +1370,7 @@ Events.Setpieces = {
 						max: 5,
 						chance: 0.8
 					},
-					'клики': {
+					'ікла': {
 						min: 1,
 						max: 5,
 						chance: 0.5
@@ -1622,7 +1622,7 @@ Events.Setpieces = {
 						max: 10,
 						chance: 0.8
 					},
-					'клики': {
+					'ікла': {
 						min: 5,
 						max: 10,
 						chance: 0.5
@@ -1767,7 +1767,7 @@ Events.Setpieces = {
 						max: 5,
 						chance: 0.8
 					},
-					'клики': {
+					'ікла': {
 						min: 1,
 						max: 5,
 						chance: 0.5
@@ -1800,7 +1800,7 @@ Events.Setpieces = {
 						max: 5,
 						chance: 0.8
 					},
-					'клики': {
+					'ікла': {
 						min: 1,
 						max: 5,
 						chance: 0.5
@@ -1833,7 +1833,7 @@ Events.Setpieces = {
 						max: 5,
 						chance: 0.8
 					},
-					'клики': {
+					'ікла': {
 						min: 1,
 						max: 5,
 						chance: 0.5
@@ -2683,7 +2683,7 @@ Events.Setpieces = {
 				attackDelay: 2,
 				health: 10,
 				loot: {
-					'клики': {
+					'ікла': {
 						min: 5,
 						max: 10,
 						chance: 1

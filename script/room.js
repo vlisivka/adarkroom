@@ -198,7 +198,7 @@ var Room = {
 			cost: function() {
 				return {
 					'дерево': 100,
-					'клики': 5
+					'ікла': 5
 				};
 			}
 		},
@@ -315,7 +315,7 @@ var Room = {
 				return { 'шкури': 150 };
 			}
 		},
-		'клики': {
+		'ікла': {
 			type: 'good',
 			cost: function() {
 				return { 'шкури': 300 };
@@ -335,7 +335,7 @@ var Room = {
 			cost: function() {
 				return {
 					'шкури': 200,
-					'клики': 50
+					'ікла': 50
 				}
 			}
 		},
@@ -345,7 +345,7 @@ var Room = {
 				return {
 					'шкури': 300,
 					'луска': 50,
-					'клики': 50
+					'ікла': 50
 				}
 			}
 		},
@@ -362,7 +362,7 @@ var Room = {
 			cost: function() {
 				return {
 					'луска': 10,
-					'клики': 10
+					'ікла': 10
 				}
 			}
 		},
@@ -370,7 +370,7 @@ var Room = {
 			type: 'weapon',
 			cost: function() {
 				return {
-					'клики': 10
+					'ікла': 10
 				}
 			}
 		},
@@ -379,7 +379,7 @@ var Room = {
 			cost: function() {
 				return {
 					'луска': 100,
-					'клики': 50
+					'ікла': 50
 				}
 			}
 		},
@@ -388,7 +388,7 @@ var Room = {
 			cost: function() {
 				return {
 					'луска': 500,
-					'клики': 250
+					'ікла': 250
 				}
 			}
 		},
@@ -398,7 +398,7 @@ var Room = {
 				return {
 					'шкури': 1500,
 					'луска': 750,
-					'клики': 300
+					'ікла': 300
 				}
 			}
 		},
@@ -409,7 +409,7 @@ var Room = {
 				return { 
 					'шкури': 400, 
 					'луска': 20, 
-					'клики': 10 
+					'ікла': 10 
 				};
 			}
 		}
@@ -511,7 +511,7 @@ var Room = {
 		}
 		if(State.room.builder == 3) {
 			State.room.builder++;
-			Engine.setIncome('builder', {
+			Engine.setIncome('будівельниця', {
 				delay: 10,
 				stores: {'дерево' : 2 }
 			});
