@@ -290,7 +290,7 @@ var Events = {
 			var msg;
 			if(typeof dmg == 'number') {
 				if(dmg < 0) {
-					msg = 'miss';
+					msg = 'промах';
 					dmg = 0;
 				} else {
 					msg = '-' + dmg;
@@ -335,7 +335,7 @@ var Events = {
 			var msg;
 			if(typeof dmg == 'number') {
 				if(dmg < 0) {
-					msg = 'miss';
+					msg = 'промах';
 					dmg = 0;
 				} else {
 					msg = '-' + dmg;

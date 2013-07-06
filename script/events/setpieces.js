@@ -142,8 +142,8 @@ Events.Setpieces = {
 			},
 			'a2': {
 				text: [
-					'the cave narrows a few feet in.',
-					"the walls are moist and moss-covered"
+					'Печера звузилася до пари метрів.',
+					"Стіни вологі і вкриті пліснявою."
 				],
 				buttons: {
 					'continue': {
@@ -158,8 +158,8 @@ Events.Setpieces = {
 			},
 			'a3': {
 				text: [
-				   'the remains of an old camp sits just inside the cave.',
-				   'bedrolls, torn and blackened, lay beneath a thin layer of dust.'
+				   'Залишки чиєїсь старої стоянки знаходяться просто посеред печери.',
+				   'Спальники, підгнивші та почорніли, лежать під тонким шаром пилу.'
 				],
 				loot: {
 					'копченина': {
@@ -191,9 +191,9 @@ Events.Setpieces = {
 			},
 			'b1': {
 				text: [
-				   'the body of a wanderer lies in a small cavern.',
-				   "rot's been to work on it, and some of the pieces are missing.",
-				   "can't tell what left it here."
+				   'Тіло якогось блукальця лежить у маленькій печері.',
+				   "Деякі частини тіла відсутні і час вже зробив своє.",
+				   "Неможливо сказати чому він тут лежить."
 				],
 				loot: {
 					'меч': {
@@ -213,7 +213,7 @@ Events.Setpieces = {
 					}
 				},
 				buttons: {
-					'continue': {	
+					'continue': {
 						text: 'продовжити',
 						nextScene: { 1: 'c1' }
 					},
@@ -225,12 +225,12 @@ Events.Setpieces = {
 			},
 			'b2': {
 				text: [
-				   'Смолоскип зашипів і потух у вологому повітрі.',
-				   'Темнота непроглядна.'
+				   'Смолоскип зашипів і згас у вологому повітрі.',
+				   'Темнота стала непроглядна.'
 				],
-				notification: 'Смолоскип потух.',
+				notification: 'Смолоскип згас.',
 				buttons: {
-					'continue': {	
+					'continue': {
 						text: 'продовжити',
 						cost: {'смолоскип': 1},
 						nextScene: { 1: 'c1' }
@@ -249,7 +249,7 @@ Events.Setpieces = {
 				hit: 0.8,
 				attackDelay: 1,
 				health: 5,
-				notification: 'a startled тварюка defends its home',
+				notification: 'Налаякана тварюка захищає свою нору.',
 				loot: {
 					'шкури': {
 						min: 1,
@@ -313,7 +313,7 @@ Events.Setpieces = {
 				hit: 0.8,
 				attackDelay: 2,
 				health: 10,
-				notification: 'a large тварюка charges out of the dark',
+				notification: 'Велика тварюка насувається з темноти.',
 				loot: {
 					'шкури': {
 						min: 1,
@@ -345,7 +345,7 @@ Events.Setpieces = {
 				hit: 0.8,
 				attackDelay: 2,
 				health: 10,
-				notification: 'a giant lizard shambles forward',
+				notification: 'Великий варан кидається вперед.',
 				loot: {
 					'луска': {
 						min: 1,
@@ -371,7 +371,7 @@ Events.Setpieces = {
 			},
 			'end1': {
 				text: [
-				   'the nest of a large animal lies at the back of the cave.'
+				   'Гніздо великої тварюки знаходиться біля задньої стіни печери.'
 				],
 				onLoad: function() {
 					World.clearDungeon();
@@ -412,7 +412,7 @@ Events.Setpieces = {
 			},
 			'end2': {
 				text: [
-				   'a small supply cache is hidden at the back of the cave.'
+				   'Чиїсь припаси приховані у виямці у стіні печери.'
 				],
 				loot: {
 					'шмаття': {
@@ -458,7 +458,7 @@ Events.Setpieces = {
 			},
 			'end3': {
 				text: [
-				   'an old case is wedged behind a rock, covered in a thick layer of dust.'
+				   'Старий ящик накритий каменем і припорошений дустом.'
 				],
 				loot: {
 					'шабля': {
