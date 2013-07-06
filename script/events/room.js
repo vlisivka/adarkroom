@@ -62,7 +62,7 @@ Events.Room = [
 				notification: 'Дивні звуки чути за стінами',
 				buttons: {
 					'investigate': {
-						text: 'розібратися',
+						text: 'подивитися',
 						nextScene: { 0.3: 'stuff', 1: 'nothing' }
 					},
 					'ignore': {
@@ -112,7 +112,7 @@ Events.Room = [
 				notification: 'Щось у коморі',
 				buttons: {
 					'investigate': {
-						text: 'дослідити',
+						text: 'заглянути',
 						nextScene: { 0.5: 'scales', 0.8: 'teeth', 1: 'cloth' }
 					},
 					'ignore': {

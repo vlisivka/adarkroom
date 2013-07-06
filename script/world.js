@@ -373,12 +373,12 @@ var World = {
 			var num = Path.outfit['копченина'];
 			num--;
 			if(num == 0) {
-				Notifications.notify(World, 'the meat has run out');
+				Notifications.notify(World, 'Копчене мʼясо скінчилося.');
 			} else if(num < 0) {
 				// Starvation! Hooray!
 				num = 0;
 				if(!World.starvation) {
-					Notifications.notify(World, 'starvation sets in')
+					Notifications.notify(World, 'Голод нестерпний.')
 					World.starvation = true;
 				} else {
 					State.starved = State.starved ? State.starved : 0;
