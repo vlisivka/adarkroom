@@ -1754,7 +1754,7 @@ Events.Setpieces = {
 			'd7': {
 				notification: 'the crowd surges forward.',
 				combat: true,
-				enemy: 'бомжі',
+				enemy: 'жебраки',
 				plural: true,
 				char: 'SSS',
 				damage: 2,
@@ -1819,9 +1819,9 @@ Events.Setpieces = {
 			},
 			
 			'd9': {
-				notification: 'a бомж stands firmly in the doorway of a small hut.',
+				notification: 'Жебрак стоїть впевнено у дверях маленької хатки.',
 				combat: true,
-				enemy: 'бомж',
+				enemy: 'жебрак',
 				char: 'S',
 				damage: 3,
 				hit: 0.8,
@@ -2232,13 +2232,13 @@ Events.Setpieces = {
 			},
 			'occupied': {
 				combat: true,
-				enemy: 'бомж',
+				enemy: 'жебрак',
 				char: 'S',
 				damage: 3,
 				hit: 0.8,
 				attackDelay: 2,
 				health: 10,
-				notification: 'Чоловʼяга спускається по сходах з поржавілим мечем у руках.',
+				notification: 'Жебрак спускається по сходах з заіржавілим мечем у руках.',
 				onLoad: function() {
 					World.markVisited(World.curPos[0], World.curPos[1]);
 				},
