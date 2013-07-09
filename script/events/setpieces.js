@@ -179,7 +179,7 @@ Events.Setpieces = {
 					}
 				},
 				buttons: {
-					'continue': {	
+					'continue': {
 						text: 'продовжити',
 						nextScene: {0.5: 'b3', 1: 'b4'}
 					},
@@ -489,10 +489,10 @@ Events.Setpieces = {
 		scenes: {
 			'start': {
 				text: [
-					'a small suburb lays ahead, empty houses scorched and peeling.',
-					"broken streetlights stand, rusting. light hasn't graced this place in a long time."
+					'Невисоке передмістя лежиит попереду, пусті будинки дивляться порожніми віконницями.',
+					"Розбиті ліхтарі ржавіють вздовж вулиць. Ніщо не освітлює ці місця."
 				],
-				notification: "the town lies abandoned, its citizens long dead",
+				notification: "Містечко лежить покинуте, його жителі давно вже мертві.",
 				buttons: {
 					'enter': {
 						text: 'розвідати',
@@ -507,8 +507,8 @@ Events.Setpieces = {
 			
 			'a1': {
 				text: [
-					"where the windows of the schoolhouse aren't shattered, they're blackened with soot.",
-					'the double doors creak endlessly in the wind.'
+					"Вцілілі вікна школи покриті кіптявою.",
+					'Вхідні двері вічно риплять від поштовхів вітру.'
 				],
 				buttons: {
 					'enter': {
@@ -547,7 +547,7 @@ Events.Setpieces = {
 						chance: 0.5
 					}
 				},
-				notification: 'ambushed on the street.',
+				notification: 'Пастка на вулиці.',
 				buttons: {
 					'continue': {
 						text: 'продовжити',
@@ -561,7 +561,7 @@ Events.Setpieces = {
 			},
 			'b1': {
 				text: [
-				   'a small cache of supplies is tucked inside a rusting locker.'
+				   'Невеличкі припаси заховані у поіржавілій шафці.'
 				],
 				loot: {
 					'копченина': {
@@ -616,7 +616,7 @@ Events.Setpieces = {
 						chance: 0.5
 					}
 				},
-				notification: 'a scavenger waits just inside the door.',
+				notification: 'Сміттяр чекав просто за дверима.',
 				buttons: {
 					'continue': {
 						text: 'продовжити',
@@ -648,7 +648,7 @@ Events.Setpieces = {
 						chance: 1
 					}
 				},
-				notification: 'a тварюка stands alone in an overgrown park.',
+				notification: 'Якась тварюка стоїть самотня у здичавілому парку.',
 				buttons: {
 					'continue': {
 						text: 'продовжити',
@@ -662,8 +662,8 @@ Events.Setpieces = {
 			},
 			'b4': {
 				text: [
-				   'an overturned caravan is spread across the pockmarked street.',
-				   "it's been picked over by scavengers, but there's still some things worth taking."
+				   'Залишки розгромленого каравану розкидані вздовж вулиці.',
+				   "Більшість припасів розграбована сміттярями, але трохи ще лишилося."
 				],
 				loot: {
 					'копченина': {
@@ -718,7 +718,7 @@ Events.Setpieces = {
 						chance: 0.5
 					}
 				},
-				notification: 'a головоріз moves out of the shadows.',
+				notification: 'Розмальований головоріз вийшов з тіні.',
 				buttons: {
 					'continue': {
 						text: 'продовжити',
@@ -750,7 +750,7 @@ Events.Setpieces = {
 						chance: 1
 					}
 				},
-				notification: 'a тварюка charges out of a ransacked classroom.',
+				notification: 'Якась тварюка виплигнула з розгромленої школи.',
 				buttons: {
 					'continue': {
 						text: 'продовжити',
@@ -764,9 +764,9 @@ Events.Setpieces = {
 			},
 			'c3': {
 				text: [
-				   'through the large gymnasium doors, footsteps can be heard.',
-				   'the смолоскипlight casts a flickering glow down the hallway.',
-				   'the footsteps stop.'
+				   'Чиїсь кроки чути через великі двері школи.',
+				   'Смолоскип згасає посеред вестибулю.',
+				   'Кроки зупиняються.'
 				],
 				buttons: {
 					'continue': {
@@ -875,7 +875,7 @@ Events.Setpieces = {
 						chance: 0.5
 					}
 				},
-				notification: 'a panicked сміттяр bursts through the door, screaming.',
+				notification: 'Зляканий сміттяр з криком вилітає з дверей.',
 				buttons: {
 					'continue': {
 						text: 'продовжити',
@@ -1607,7 +1607,7 @@ Events.Setpieces = {
 			},
 			
 			'd3': {
-				notification: 'a swarm of rats rushes up the tunnel.',
+				notification: 'Зграя пацюків біжить по тунелю.',
 				combat: true,
 				enemy: 'щурі',
 				plural: true,
@@ -1641,7 +1641,7 @@ Events.Setpieces = {
 			},
 			
 			'd4': {
-				notification: 'a large man attacks, waving a bayonet.',
+				notification: 'Плечистий солдат атакує, вимахуючи штиком.',
 				combat: true,
 				enemy: 'ветеран',
 				char: 'V',
@@ -1674,7 +1674,7 @@ Events.Setpieces = {
 			},
 			
 			'd5': {
-				notification: 'a second солдат opens fire.',
+				notification: 'Інший солдат відкриває вогонь.',
 				combat: true,
 				enemy: 'солдат',
 				ranged: true,
@@ -1713,7 +1713,7 @@ Events.Setpieces = {
 			},
 			
 			'd6': {
-				notification: 'a masked солдат rounds the corner, gun drawn',
+				notification: 'Cолдат у маскхалаті завертає за кут, зброя напоготові.',
 				combat: true,
 				enemy: 'спецназ',
 				char: 'C',
@@ -1752,7 +1752,7 @@ Events.Setpieces = {
 			},
 			
 			'd7': {
-				notification: 'the crowd surges forward.',
+				notification: 'Натовп гнівно насувається.',
 				combat: true,
 				enemy: 'жебраки',
 				plural: true,
@@ -1819,7 +1819,7 @@ Events.Setpieces = {
 			},
 			
 			'd9': {
-				notification: 'Жебрак стоїть впевнено у дверях маленької хатки.',
+				notification: 'Жебрак стоїть впевнено у дверях маленької хатинки.',
 				combat: true,
 				enemy: 'жебрак',
 				char: 'S',
